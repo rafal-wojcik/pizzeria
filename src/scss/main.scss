@@ -1,13 +1,26 @@
+
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
+@import "modules/navigation.scss";
 
-body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    }
+
+   body {
+       margin: 0;
+       padding: 0;
+       background: url(../assets/img/pizzeria.png);
+       background-attachment: fixed;
+       background-size: cover;
+   } 
+
+
+    
