@@ -1,0 +1,97 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.first {
+    width: 500px;
+    height: 280px;
+    margin:10px;
+    background-image: url(../assets/img/owoce-morza.jpg);
+    background-size: cover;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+.hand-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+}
+.hand-down img {
+    height: 55px;
+}
+.new {
+    color: yellow;
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom: -10px;
+}
+.new1 {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+.first button {
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(226, 54, 24);
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: calibri;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.first p {
+    color: white;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+}
+.first p:nth-child(1) {
+    font-size: 38px;
+    font-family: calibri;
+    font-weight: bold;
+}
+.first p:nth-child(2) {
+    font-size: 28px;
+    font-family: myriad pro;
+}
+.order {
+    background-image: url(../assets/img/picture1.png);
+    background-size: cover;
+
+}
+.search {
+    background-image: url(../assets/img/picture.png);
+    background-size: cover;
+    
+}
+.search,.order {
+    width: 500px;
+    height: 130px;
+    margin: 10px;
+}
+.tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.whats-new {
+display: flex;
+justify-content: center;
+align-items: center;
+display: grid;
+text-align: center;
+margin: 70px 0;
+transform: skew(10deg,-10deg);
+}

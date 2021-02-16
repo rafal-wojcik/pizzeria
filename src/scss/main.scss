@@ -3,11 +3,12 @@
 
 @import "_variables";
 @import "modules/navigation.scss";
+@import "modules/content.scss";
+
 
 
 html {
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 
 *, *:before, *:after {
