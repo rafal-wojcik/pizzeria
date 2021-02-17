@@ -1,3 +1,7 @@
+.price button:hover {
+    transform: scale(1.2);
+    transition: all ease 0.5s;
+}
 .content {
     display: flex;
     flex-direction: column;
@@ -16,6 +20,64 @@
     flex-direction: column;
     justify-content: center;
     }
+.first button {
+        width: 120px;
+        height: 35px;
+        border-radius: 10px;
+        background-color: rgb(226, 54, 24);
+        border: none;
+        outline: none;
+        color: #fff;
+        font-weight: bold;
+        font-family: calibri;
+        text-align: center;
+        font-size: 16px;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    }
+.first p {
+        color: white;
+        line-height: 50px;
+        margin: 0;
+        padding: 0;
+    }
+.first p:nth-child(1) {
+        font-size: 38px;
+        font-family: calibri;
+        font-weight: bold;
+    }
+.first p:nth-child(2) {
+        font-size: 28px;
+        font-family: myriad pro;
+    }
+.food-1,.food-2,.food-3 {
+    width: 326px;
+    height: 350px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 40px;
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.food-1 p,.food-2 p,.food-3 p {
+    font-family: calibri;
+    color: #fff;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    }
+.food-1 {
+    background-image: url(../assets/img/food.png);
+    background-size: cover;
+}
+.food-2 {
+    background-image: url(../assets/img/food1.png);
+    background-size: cover;
+}
+.food-3 {
+    background-image: url(../assets/img/coffee.png);
+    background-size: cover;
+}
 .hand-down {
     display: flex;
     justify-content: center;
@@ -24,61 +86,145 @@
 }
 .hand-down img {
     height: 55px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+}
+.menu01, .menu02 {
+    font-family: calibri;
+    width: 498px;
+    height: 180px;
+    background: salmon;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+}
+.menu01 {
+    background-image: url(../assets/img/salad.png);
+    background-size: cover;
+}
+.menu02 {
+    background-image: url(../assets/img/sok.png);
+    background-size: cover;
+}
+.menu01 p:nth-child(1),.menu02 p:nth-child(1) {
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+}
+.menu01 p:nth-child(2),.menu02 p:nth-child(2) {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.menu01 p,.menu02 p {
+    margin: 0;
+    padding: 0;
+    line-height: 60px;
+}
+.name p:nth-child(1) {
+    font-size: 40px;
+    font-weight: bold;
+}
+.name p:nth-child(2) {
+    font-size: 30px;
+    font-weight: 400px;
 }
 .new {
     color: yellow;
     font-size:30px;
     font-weight:bold;
     margin-bottom: -10px;
+    transform: skew(10deg,-10deg);
 }
 .new1 {
     color: black;
     font-size: 50px;
     font-weight: bold;
+    transform: skew(10deg,-10deg);
+
 }
-.first button {
-    width: 120px;
-    height: 35px;
-    border-radius: 10px;
-    background-color: rgb(226, 54, 24);
-    border: none;
-    outline: none;
-    color: #fff;
-    font-weight: bold;
-    font-family: calibri;
-    text-align: center;
-    font-size: 16px;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-}
-.first p {
-    color: white;
-    line-height: 50px;
-    margin: 0;
-    padding: 0;
-}
-.first p:nth-child(1) {
-    font-size: 38px;
-    font-family: calibri;
-    font-weight: bold;
-}
-.first p:nth-child(2) {
-    font-size: 28px;
-    font-family: myriad pro;
-}
+
 .order {
     background-image: url(../assets/img/picture1.png);
     background-size: cover;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order a {
+    font-size: 40px;
+    font-family: calibri;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+}
+.price button {
+    border: 0;
+    outline: 0;
+    color: white;
+    background: #f11c23;
+    width: 75px;
+    height: 35px;
+    border-radius: 20px;
 }
 .search {
     background-image: url(../assets/img/picture.png);
     background-size: cover;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    }
+.search p {
+    color:#fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: calibri;
+    line-height: 0;
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.5);
 }
 .search,.order {
     width: 500px;
     height: 130px;
     margin: 10px;
+}
+.second-row {
+    display: flex;
+}
+.text {
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    width: 300px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.text input[type=search] {
+   border: none;
+   background-color: transparent;
+   color: #000;
+   outline: 0;
+   text-align: center;
+}
+.text button {
+    height: 30px;
+    width: 80px;
+    border: none;
+    outline: none;
+    font-family: calibri;
+    font-weight: bold;
+    border-radius: 0 20px 20px 0;
+    border-left: 1px solid #CDCACA;
+}
+.third-row {
+    display: flex;
 }
 .tools {
     display: flex;
@@ -92,6 +238,5 @@ justify-content: center;
 align-items: center;
 display: grid;
 text-align: center;
-margin: 70px 0;
-transform: skew(10deg,-10deg);
+margin: 140px 0;
 }
