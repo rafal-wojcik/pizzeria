@@ -1,0 +1,41 @@
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: calibri;
+    color: white;
+    margin-top: 10px;
+}
+.footer {
+    height: 150px;
+    background: #0a0a0a;
+    width: 100%;
+
+}
+.footer-menu ul li a {
+    border-left: 2px solid rgba(255,255,255,0.1);
+    
+}
+.footer-menu ul {
+    display: flex;
+}
+.navigation-content {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.social ul {
+    display: flex;
+    list-style: none;
+}
+.social ul li a {
+    padding: 15px;
+}
+
+.social img {
+    height: 25px;
+}
+.first,.search,.order,.food-1,.food-2,.food-3,.menu01,.menu02 {
+    border-radius: 10px;
+}
